@@ -181,7 +181,6 @@ footer {
 /* Code Blocks */
 pre, code {
   background-color: #232323;
-  border-radius: 4px;
   font-family: Consolas, Monaco, 'Andale Mono', monospace;
 }
 
