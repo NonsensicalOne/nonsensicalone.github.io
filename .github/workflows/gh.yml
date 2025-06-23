@@ -36,7 +36,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: "0.100.0"
+      HUGO_VERSION: "0.147.8"
     steps:
       - name: Check version
         if: ${{ github.event.inputs.hugoVersion }}
@@ -52,13 +52,12 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Hugo
         run: |
-          hugo \
-            --baseURL ${{ steps.pages.outputs.base_url }}
+          hugo --baseURL ${{ steps.pages.outputs.base_url }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-  # Deployment job
+  # Deployment j*b
   deploy:
     environment:
       name: github-pages
