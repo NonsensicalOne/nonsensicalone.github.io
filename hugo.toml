@@ -1,0 +1,9 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-en'
+defaultContentLanguage = "en"
+defaultContentLang = "en"
+title = "Makrokoded"
+theme = 'nice'
+
+[markup.goldmark.renderer]
+unsafe = true
