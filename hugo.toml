@@ -2,7 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-en'
 defaultContentLanguage = "en"
 defaultContentLang = "en"
-title = "Makrokoded"
+title = "NonsensicalOne"
 theme = 'nice'
 
 [markup.goldmark.renderer]
