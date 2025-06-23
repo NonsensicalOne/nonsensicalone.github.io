@@ -1,4 +1,4 @@
-name: Deploy Hugo Index Demo to Pages
+name: Deploy Hugo Site
 
 on:
   push:
@@ -52,14 +52,12 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Hugo
         run: |
-          cd ./exampleSite && \
           hugo \
-            --buildDrafts --gc --verbose \
             --baseURL ${{ steps.pages.outputs.base_url }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./exampleSite/public
+          path: ./public
   # Deployment job
   deploy:
     environment:
