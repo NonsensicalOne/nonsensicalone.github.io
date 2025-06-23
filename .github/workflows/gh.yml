@@ -41,6 +41,8 @@ jobs:
       - name: Check version
         if: ${{ github.event.inputs.hugoVersion }}
         run: export HUGO_VERSION="${{ github.event.inputs.hugoVersion }}"
+      - name: Install Hugo CLI
+        run: sudo apt-get install hugo
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
