@@ -46,4 +46,4 @@ And then uninstall express to make node_modules less bloated:
 npm uninstall express
 ```
 
-Now your Express app is now super duper fast and can even beat the shit out of [Elysia](http://localhost:1313/posts/speed-up-your-express-app-with-one-line/image.webp), have a good day and see you in my next blog post
+Now your Express app is now super duper fast and can even beat the shit out of [Elysia](/posts/speed-up-your-express-app-with-one-line/image.webp), have a good day and see you in my next blog post
