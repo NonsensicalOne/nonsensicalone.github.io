@@ -1,6 +1,6 @@
 +++
 date = '2025-06-27T23:15:54+03:00'
-draft = true
+draft = false
 title = 'Life Is Kind of Meaningless'
 +++
 
