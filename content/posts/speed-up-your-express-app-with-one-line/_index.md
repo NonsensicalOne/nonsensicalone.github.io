@@ -2,6 +2,7 @@
 date = '2025-06-25T22:58:27+03:00'
 draft = false
 title = 'Speed Up Your Express App With One Line'
+tags = ['guide', 'post']
 +++
 
 If you've worked a bit with NodeJS, you've probably heard of Express. The web framework that is slow but has good syntax (a matter of personal preference). In this tutorial I will show you how to make your Express application at least 3 times faster

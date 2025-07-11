@@ -2,6 +2,7 @@
 date = '2025-06-28T20:29:49+03:00'
 draft = true
 title = 'AI-Generated Images to be Recognized as Art'
+tags = ['ranting', 'post']
 +++
 
 Yes, you heard me right. AI-generated images to be recognized as art. Now you can close the browser tab. You, the reader, may think I am trying to ragebait people but no. I am telling the truth. No matter how hurting, how shit it is, I am here telling the truth. Anyways, you may be asking "Why? AI art- I mean, AI-generated images to be recognized as art?" and that's a good question. So let me explain: 

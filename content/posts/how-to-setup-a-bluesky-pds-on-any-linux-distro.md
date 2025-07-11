@@ -2,6 +2,7 @@
 date = '2025-06-22T20:35:27Z'
 draft = false
 title = 'How to Setup a Bluesky PDS on Any Linux Distro'
+tags = ['guide', 'post']
 +++
 
 Want to setup a Bluesky PDS (Personal Data Server) but frustrated that the [official installer script](https://raw.githubusercontent.com/bluesky-social/pds/main/installer.sh) only supports Debian and Ubuntu? This guide will walk you through setting up a Bluesky PDS on any Linux distribution by manually following the same steps the installer performs.
