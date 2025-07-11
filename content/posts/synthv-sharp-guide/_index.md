@@ -8,5 +8,4 @@ I was super scared of getting my Github account banned. Sorry, maybe look for so
 
 <video width="640" height="360" controls>
   <source src="https://nonsensicalone.github.io/posts/synthv-sharp-guide/catvideo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
 </video>
