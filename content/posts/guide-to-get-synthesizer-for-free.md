@@ -1,6 +1,6 @@
 +++
 date = '2025-07-11T19:15:15+03:00'
-draft = true
+draft = false
 title = 'A Guide to Use Synthesizer V for Free'
 tags = ['guide', 'script']
 +++
