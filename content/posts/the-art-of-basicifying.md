@@ -1,6 +1,6 @@
 +++
 date = '2025-07-20T16:18:05+03:00'
-draft = false
+draft = true
 title = 'The Art Of Basicifying (and how to do it)'
 +++
 
