@@ -1,7 +1,8 @@
 +++
 date = '2025-07-20T16:18:05+03:00'
-draft = true
+draft = false
 title = 'The Art Of Basicifying (and how to do it)'
+tags = ['guide', 'post']
 +++
 
 We live in a cruel world where technology is exponentially rising. New technologies to use, new trends to follow, new videos to watch, new political mess being created by politicians, and our time being more important than ever. We waste more of our time on stuff that will give us nothing. But we have to ask: "Why are we wasting our time on stuff that will give us nothing?"

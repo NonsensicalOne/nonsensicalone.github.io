@@ -1,6 +1,6 @@
 +++
 date = '2025-06-28T20:29:49+03:00'
-draft = true
+draft = false
 title = 'AI-Generated Images to be Recognized as Art'
 tags = ['ranting', 'post']
 +++

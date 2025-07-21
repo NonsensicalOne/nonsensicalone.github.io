@@ -1,0 +1,37 @@
+name: Monthly Wordle Update
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 18 1 * *'
+
+jobs:
+  update-wordle-solutions:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Make script executable
+        run: chmod +x ./.github/generate_wordles.sh
+
+      - name: Run Wordle generator script
+        run: ./.github/generate_wordles.sh
+
+      - name: Commit and push if there are changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "posts: Update Wordle solutions for the month"
+          
+          commit_user_name: GitHub Actions Bot
+          commit_user_email: actions@github.com
+          
+          file_pattern: content/posts/cheat-on-wordle.md
