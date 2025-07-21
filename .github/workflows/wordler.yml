@@ -9,7 +9,7 @@ on:
 jobs:
   update-wordle-solutions:
     runs-on: ubuntu-latest
-    
+
     permissions:
       contents: write
 
@@ -17,19 +17,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install jq
+      - name: Install jq and hugo
         run: sudo apt-get update && sudo apt-get install -y jq hugo
 
-      - name: Make script executable
+      - name: Make Wordle script executable
         run: chmod +x ./.github/wordler.sh
 
       - name: Run Wordle generator script
         run: ./.github/wordler.sh
 
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config --global user.name 'CI'
           git config --global user.email 'noreply@github.com'
           git add .
-          git commit -m "posts: Update Wordle solutions for the month"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "posts: Update Wordle solutions for the month"
+            git push
+          fi
