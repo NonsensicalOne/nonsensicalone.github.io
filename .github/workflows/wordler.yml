@@ -18,20 +18,18 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
+        run: sudo apt-get update && sudo apt-get install -y jq hugo
 
       - name: Make script executable
-        run: chmod +x ./.github/generate_wordles.sh
+        run: chmod +x ./.github/wordler.sh
 
       - name: Run Wordle generator script
-        run: ./.github/generate_wordles.sh
+        run: ./.github/wordler.sh
 
-      - name: Commit and push if there are changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "posts: Update Wordle solutions for the month"
-          
-          commit_user_name: GitHub Actions Bot
-          commit_user_email: actions@github.com
-          
-          file_pattern: content/posts/cheat-on-wordle.md
+      - name: Commit changes
+        run: |
+          git config --global user.name 'CI'
+          git config --global user.email 'noreply@github.com'
+          git add .
+          git commit -m "posts: Update Wordle solutions for the month"
+          git push
