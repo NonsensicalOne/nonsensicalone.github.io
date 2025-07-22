@@ -371,6 +371,7 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 
 - [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) - Truly independent web browser
 - [qutebrowser/qutebrowser](https://github.com/qutebrowser/qutebrowser) - Keyboard-driven, vim-like browser
+- [servo/servo](https://github.com/servo/servo) - Servo is lightweight, high-performance alternative for embedding web technologies in applications.
 - [versotile-org/verso](https://github.com/versotile-org/verso) - Mirror of verso-browser
 - [KDE/konqueror](https://github.com/KDE/konqueror) - File manager/browser hybrid
 - [KDE/falkon](https://invent.kde.org/network/falkon) - Cross-platform Qt-based web browser
