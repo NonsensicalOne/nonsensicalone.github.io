@@ -396,6 +396,7 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 ### Server Management
 
 - [YunoHost/yunohost](https://github.com/YunoHost/yunohost) - Server administration simplification OS
+- [runtipi/runtipi](https://github.com/runtipi/runtipi) - Runtipi is a homeserver for everyone!
 - [Paymenter/Paymenter](https://github.com/Paymenter/Paymenter) - Free webshop solution for hostings
 
 ### Monitoring & Status
