@@ -11,12 +11,15 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 ## Web Development & Frameworks
 
 ### Frontend Frameworks
+
 - **Vue.js Ecosystem**
+
   - [vuejs/core](https://github.com/vuejs/core) - Vue.js progressive JavaScript framework
   - [vuejs/create-vue](https://github.com/vuejs/create-vue) - Recommended way to start a Vite-powered Vue project
   - [vuejs/language-tools](https://github.com/vuejs/language-tools) - High-performance Vue language tooling
 
 - **React & Related**
+
   - [aidenybai/million](https://github.com/aidenybai/million) - Optimizing compiler for React
   - [expo/expo](https://github.com/expo/expo) - Framework for universal native apps with React
 
@@ -25,21 +28,25 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
   - [facebook/docusaurus](https://github.com/facebook/docusaurus) - Open source documentation websites
 
 ### CSS Frameworks & Tools
+
 - [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - Utility-first CSS framework
 
 ### JavaScript Libraries & Tools
+
 - [nodejs/undici](https://github.com/nodejs/undici) - HTTP/1.1 client for Node.js
 - [panva/jose](https://github.com/panva/jose) - JWA, JWS, JWE, JWT, JWK, JWKS for various runtimes
 - [intoli/user-agents](https://github.com/intoli/user-agents) - JavaScript library for generating random user agents
 - [extension-js/extension.js](https://github.com/extension-js/extension.js) - Cross-browser extension framework
 
 ### Build Tools
+
 - [vercel/turborepo](https://github.com/vercel/turborepo) - Build system optimized for JavaScript and TypeScript
 - [pnpm/pnpm](https://github.com/pnpm/pnpm) - Fast, disk space efficient package manager
 
-##  Desktop Applications & Development
+## Desktop Applications & Development
 
 ### Code Editors & IDEs
+
 - [zed-industries/zed](https://github.com/zed-industries/zed) - High-performance, multiplayer code editor
 - [helix-editor/helix](https://github.com/helix-editor/helix) - Post-modern modal text editor
 - [neovim/neovim](https://github.com/neovim/neovim) - Vim-fork focused on extensibility
@@ -48,11 +55,13 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) - Browser based code editor
 
 ### Cross-Platform Development
+
 - [electron/electron](https://github.com/electron/electron) - Build cross-platform desktop apps with web technologies
 - [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
 - [nodegui/nodegui](https://github.com/nodegui/nodegui) - Cross-platform native desktop applications with Node.js and CSS
 
 ### Window Managers & Desktop Environment
+
 - [Alexays/Waybar](https://github.com/Alexays/Waybar) - Highly customizable Wayland bar
 - [YaLTeR/niri](https://github.com/YaLTeR/niri) - Scrollable-tiling Wayland compositor
 - [jcs/sdorfehs](https://github.com/jcs/sdorfehs) - Tiling window manager
@@ -62,37 +71,43 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 ## Gaming & Entertainment
 
 ### Game Engines & Development
+
 - [godotengine/godot](https://github.com/godotengine/godot) - Multi-platform 2D and 3D game engine
 - [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) - JavaScript game and rendering engine
 - [playcanvas/engine](https://github.com/playcanvas/engine) - Powerful web graphics runtime
 - [ValveSoftware/source-sdk-2013](https://github.com/ValveSoftware/source-sdk-2013) - The 2013 edition of the Source SDK
 
 ### Gaming Tools & Utilities
+
 - [PrismLauncher/PrismLauncher](https://github.com/PrismLauncher/PrismLauncher) - Custom Minecraft launcher
 - [PolyMC/PolyMC](https://github.com/PolyMC/PolyMC) - Custom launcher for Minecraft (Fork of MultiMC)
 - [cabaletta/baritone](https://github.com/cabaletta/baritone) - Google maps for block game (Minecraft pathfinding)
 - [flightlessmango/MangoHud](https://github.com/flightlessmango/MangoHud) - Vulkan and OpenGL overlay for monitoring
 
 ### Emulation
+
 - [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) - PlayStation 4 emulator
 - [ruffle-rs/ruffle](https://github.com/ruffle-rs/ruffle) - Flash Player emulator written in Rust
 - [isledecomp/isle](https://github.com/isledecomp/isle) - Decompilation of LEGO Island (1997)
 - [hedge-dev/XenonRecomp](https://github.com/hedge-dev/XenonRecomp) - Tool for recompiling Xbox 360 games
 
 ### Minecraft
-  [cuberite/cuberite](https://github.com/cuberite/cuberite) - Lightweight server
-  [FabricMC/fabric](https://github.com/FabricMC/fabric) - Modding toolkit
-  [cabaletta/baritone](https://github.com/cabaletta/baritone) - Pathfinding tool
-  [PrismLauncher/PrismLauncher](https://github.com/PrismLauncher/PrismLauncher) - Multi-instance manager
+
+[cuberite/cuberite](https://github.com/cuberite/cuberite) - Lightweight server
+[FabricMC/fabric](https://github.com/FabricMC/fabric) - Modding toolkit
+[cabaletta/baritone](https://github.com/cabaletta/baritone) - Pathfinding tool
+[PrismLauncher/PrismLauncher](https://github.com/PrismLauncher/PrismLauncher) - Multi-instance manager
 
 ## Audio & Media
 
 ### Music Production & Audio
+
 - [LMMS/lmms](https://github.com/LMMS/lmms) - Cross-platform music production software
 - [stakira/OpenUtau](https://github.com/stakira/OpenUtau) - Open singing synthesis platform
 - [keirokeer/OpenUtau-DiffSinger-Lunai](https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai) - OpenUtau for DiffSinger modified for LUNAI
 
 ### Media Players & Tools
+
 - [KRTirtho/spotube](https://github.com/KRTirtho/spotube) - Open source music client for desktop & mobile
 - [mltframework/shotcut](https://github.com/mltframework/shotcut) - Cross-platform video editor
 - [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) - Open-source CapCut alternative
@@ -100,13 +115,15 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [fluent-ffmpeg/node-fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) - Fluent API to FFMPEG
 
 ### Music Streaming & Download
+
 - [miraclx/freyr-js](https://github.com/miraclx/freyr-js) - Tool for downloading songs from streaming services
 - [slskd/slskd](https://github.com/slskd/slskd) - Modern client-server application for Soulseek
 - [nicotine-plus/nicotine-plus](https://github.com/nicotine-plus/nicotine-plus) - Graphical client for Soulseek
 
-##  Security & Privacy
+## Security & Privacy
 
 ### Privacy Tools & Frontends
+
 - [zedeus/nitter](https://github.com/zedeus/nitter) - Alternative Twitter front-end
 - [TeamPiped/Piped](https://github.com/TeamPiped/Piped) - Alternative privacy-friendly YouTube frontend
 - [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) - Alternative YouTube frontend for Android
@@ -129,37 +146,42 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [libredirect/browser_extension](https://github.com/libredirect/browser_extension) - Redirects to alternative frontends
 
 ### Fediverse & Decentralized Platforms
-  [element-hq/dendrite](https://github.com/element-hq/dendrite/) - Go Matrix homeserver
-  [element-hq/synapse](https://github.com/element-hq/synapse) - Python Matrix homeserver
-  [element-hq/hydrogen-web](https://github.com/element-hq/hydrogen-web) - Lightweight Matrix client
-  [famedly/conduit](https://gitlab.com/famedly/conduit) - Matrix chat server
-  [girlbossceo/conduwuit](https://github.com/girlbossceo/conduwuit/) - Feature-rich Conduit fork
-  [git.pleroma.social/pleroma](https://git.pleroma.social/pleroma/) - Pleroma development
-  [misskey-dev/misskey](https://github.com/misskey-dev/misskey) - Federated microblogging
-  [soapbox-pub/soapbox](https://github.com/soapbox-pub/soapbox) - Social media platform
-  [silverpill/mitra](https://codeberg.org/silverpill/mitra) - Federated social network
-  [pixelfed/pixelfed](https://github.com/pixelfed/pixelfed) - Photo sharing platform
-  [LemmyNet/lemmy](https://github.com/LemmyNet/lemmy) - Link aggregator
-  [Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube) - P2P video platform
+
+[element-hq/dendrite](https://github.com/element-hq/dendrite/) - Go Matrix homeserver
+[element-hq/synapse](https://github.com/element-hq/synapse) - Python Matrix homeserver
+[element-hq/hydrogen-web](https://github.com/element-hq/hydrogen-web) - Lightweight Matrix client
+[famedly/conduit](https://gitlab.com/famedly/conduit) - Matrix chat server
+[girlbossceo/conduwuit](https://github.com/girlbossceo/conduwuit/) - Feature-rich Conduit fork
+[git.pleroma.social/pleroma](https://git.pleroma.social/pleroma/) - Pleroma development
+[misskey-dev/misskey](https://github.com/misskey-dev/misskey) - Federated microblogging
+[soapbox-pub/soapbox](https://github.com/soapbox-pub/soapbox) - Social media platform
+[silverpill/mitra](https://codeberg.org/silverpill/mitra) - Federated social network
+[pixelfed/pixelfed](https://github.com/pixelfed/pixelfed) - Photo sharing platform
+[LemmyNet/lemmy](https://github.com/LemmyNet/lemmy) - Link aggregator
+[Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube) - P2P video platform
 
 ### Security & Cryptography
+
 - [PQClean/PQClean](https://github.com/PQClean/PQClean) - Post-quantum cryptography implementations
 - [rustpq/pqcrypto](https://github.com/rustpq/pqcrypto) - Rust Post-Quantum cryptography
 - [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) - Find secrets with Gitleaks
 - [sh-dv/hat.sh](https://github.com/sh-dv/hat.sh) - Encrypt and decrypt files securely in browser
 
 ### VPN & Network
+
 - [hufrea/byedpi](https://github.com/hufrea/byedpi) - Bypass DPI
 - [lexerotk/proxy-blocking-rules](https://github.com/lexerotk/proxy-blocking-rules) - Cloudflare WAF rules to detect VPN/Proxy/Tor
 
 ### Ad Blocking & Content Filtering
+
 - [gorhill/uBlock](https://github.com/gorhill/uBlock) - uBlock Origin efficient blocker
 - [EnergizedProtection/block](https://github.com/EnergizedProtection/block) - Annoyance free internet resources
 - [libredirect/browser_extension](https://github.com/libredirect/browser_extension) - Redirects to privacy friendly frontends
 
-##  Communication & Social
+## Communication & Social
 
 ### Discord Clients & Mods
+
 - [Vendicated/Vencord](https://github.com/Vendicated/Vencord) - The cutest Discord client mod
 - [Equicord/Equicord](https://github.com/Equicord/Equicord) - The other cutest Discord client mod
 - [GooseMod/OpenAsar](https://github.com/GooseMod/OpenAsar) - Open-source alternative of Discord desktop's app.asar
@@ -170,34 +192,40 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [abaddon](https://github.com/uowuo/abaddon) - Alternative Discord client with voice support
 
 ### Communication Platforms
+
 - [element-hq/synapse](https://github.com/element-hq/synapse) - Matrix homeserver in Python/Twisted + Rust
 - [element-hq/dendrite](https://github.com/element-hq/dendrite) - Matrix homeserver written in Go
 - [bluesky-social/pds](https://github.com/bluesky-social/pds) - Bluesky Personal Data Server
 - [badlogic/skychat](https://github.com/badlogic/skychat) - BlueSky app
 
 ### Email & Messaging
+
 - [LukeSmithxyz/emailwiz](https://github.com/LukeSmithxyz/emailwiz) - Email server setup
 - [d99kris/nmail](https://github.com/d99kris/nmail) - Terminal email client
 - [the-djmaze/snappymail](https://github.com/the-djmaze/snappymail) - Modern web-based email client
 - [rnwood/smtp4dev](https://github.com/rnwood/smtp4dev) - Fake SMTP email server for development
 
-##  Development Tools & Utilities
+## Development Tools & Utilities
 
 ### Version Control & Git
+
 - [jj-vcs/jj](https://github.com/jj-vcs/jj) - Git-compatible VCS that is both simple and powerful
 - [refined-github/refined-github](https://github.com/refined-github/refined-github) - Browser extension that simplifies GitHub interface
 
 ### Code Analysis & Quality
+
 - [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) - Lints to catch mistakes and improve Rust code
 - [AlDanial/cloc](https://github.com/AlDanial/cloc) - Counts lines of source code
 - [relative/synchrony](https://github.com/relative/synchrony) - JavaScript-obfuscator cleaner & deobfuscator
 
 ### API Development & Testing
+
 - [requestly/requestly](https://github.com/requestly/requestly) - Developer tool to build, test, intercept & mock APIs
 - [Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl) - Run and test HTTP requests with plain text
 - [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) - Interactive TLS-capable HTTP proxy
 
 ### Documentation & Visualization
+
 - [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - Visualization for JSON, YAML, XML, CSV data
 - [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) - Virtual whiteboard for sketching diagrams
 - [rust-lang/mdBook](https://github.com/rust-lang/mdBook) - Create books from markdown files
@@ -205,6 +233,7 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 ## Databases & Storage
 
 ### Databases
+
 - [apache/cassandra](https://github.com/apache/cassandra) - Apache Cassandra NoSQL database
 - [scylladb/scylladb](https://github.com/scylladb/scylladb) - NoSQL data store compatible with Cassandra
 - [aerospike/aerospike-server](https://github.com/aerospike/aerospike-server) - Flash-optimized, in-memory NoSQL database
@@ -212,16 +241,19 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [microsoft/garnet](https://github.com/microsoft/garnet) - Remote cache-store with strong performance
 
 ### Object Storage & File Systems
+
 - [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) - Fast distributed storage system
 - [philipl/pifs](https://github.com/philipl/pifs) - The data-free filesystem
 
 ### Database Tools
+
 - [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) - Online database diagram editor and SQL generator
 - [pressly/goose](https://github.com/pressly/goose) - Database migration tool
 
 ## Web Servers & Performance
 
 ### High-Performance Web Servers
+
 - [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) - Simple, secure & standards compliant web server
 - [h2o/h2o](https://github.com/h2o/h2o) - Optimized HTTP/1, HTTP/2, HTTP/3 server
 - [dimdenGD/ultimate-express](https://github.com/dimdenGD/ultimate-express) - Fastest HTTP server with Express compatibility
@@ -229,6 +261,7 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [MarkReedZ/mrhttp](https://github.com/MarkReedZ/mrhttp) - The fastest python web framework
 
 ### Web Framework Libraries
+
 - [actix/actix-web](https://github.com/actix/actix-web) - Powerful web framework for Rust
 - [tokio-rs/axum](https://github.com/tokio-rs/axum) - Ergonomic web framework built with Tokio
 - [valyala/fasthttp](https://github.com/valyala/fasthttp) - Fast HTTP package for Go
@@ -237,36 +270,43 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [boazsegev/facil.io](https://github.com/boazsegev/facil.io) - High performance web application C framework
 
 ### Benchmarking & Testing
+
 - [wg/wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
 
 ## AI & Machine Learning
 
 ### Machine Learning Frameworks
+
 - [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) - 12 weeks ML course
 - [tracel-ai/burn](https://github.com/tracel-ai/burn) - Deep Learning Framework for Rust
 - [tensorflow](https://github.com/tensorflow) - Various TensorFlow implementations
 - [black-forest-labs/flux](https://github.com/black-forest-labs/flux) - Official inference repo for FLUX.1 models
 
 ### AI Search & Tools
+
 - [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica) - AI-powered search engine alternative to Perplexity
 - [TecharoHQ/anubis](https://github.com/TecharoHQ/anubis) - Weighs HTTP requests to stop AI crawlers
 
 ### Content Detection
+
 - [notAI-tech/NudeNet](https://github.com/notAI-tech/NudeNet) - Lightweight nudity detection
 - [naptha/tesseract.js](https://github.com/naptha/tesseract.js) - Pure JavaScript OCR for 100+ languages
 
 ## Mobile & Cross-Platform
 
 ### Mobile Applications
+
 - [cake-tech/cake_wallet](https://github.com/cake-tech/cake_wallet) - Noncustodial multi-currency wallet
 - [Kunzisoft/KeePassDX](https://github.com/Kunzisoft/KeePassDX) - Lightweight password manager for Android
 
 ### Cross-Platform Development
+
 - [expo/expo](https://github.com/expo/expo) - Framework for universal native apps with React
 
 ## System Administration & DevOps
 
 ### System Tools
+
 - [89luca89/distrobox](https://github.com/89luca89/distrobox) - Use any Linux distribution inside terminal
 - [fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch) - Neofetch-like system information tool
 - [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) - Automated time tracker
@@ -277,10 +317,12 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [tobiohlala/lightdm-tiny-greeter](https://github.com/tobiohlala/lightdm-tiny-greeter) - Minimal LightDM greeter
 
 ### Container & Virtualization
+
 - [slimtoolkit/slim](https://github.com/slimtoolkit/slim) - Minify container images by up to 30x
 - [winapps-org/winapps](https://github.com/winapps-org/winapps) - Run Windows apps in Linux
 
 ### Linux Distributions
+
 - [bedrocklinux/bedrocklinux-userland](https://github.com/bedrocklinux/bedrocklinux-userland) - Bedrock Linux development
 - [kreatolinux/src](https://github.com/kreatolinux/src) - Kreato Linux source tree
 - [alpinelinux](https://github.com/alpinelinux) - Alpine Linux
@@ -288,6 +330,7 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [nixos](https://github.com/nixos) - NixOS
 
 ### System Configuration
+
 - [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs) - Nix Packages collection & NixOS
 - [nix-community/home-manager](https://github.com/nix-community/home-manager) - Manage user environment using Nix
 - [nix-community/nixvim](https://github.com/nix-community/nixvim) - Configure Neovim with Nix
@@ -296,30 +339,36 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 ## Knowledge Management & Notes
 
 ### Note-Taking & Knowledge
+
 - [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - Privacy-first personal knowledge management
 - [logseq/logseq](https://github.com/logseq/logseq) - Privacy-first platform for knowledge management
 - [suchnsuch/Tangent](https://github.com/suchnsuch/Tangent) - Tangent project modules
 
 ### Reading & Books
+
 - [readest/readest](https://github.com/readest/readest) - Modern, feature-rich ebook reader
 
 ## Graphics & Design
 
 ### Design Tools
+
 - [aseprite/aseprite](https://github.com/aseprite/aseprite) - Animated sprite editor & pixel art tool
 - [mypaint/mypaint](https://github.com/mypaint/mypaint) - Simple drawing and painting program
 - [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) - Free multiplatform 3D parametric modeler
 
 ### 3D & Visualization
+
 - [angeloskath/simple-3dviz](https://github.com/angeloskath/simple-3dviz) - Library for 3D visualization
 - [assimp/assimp](https://github.com/assimp/assimp) - Open-Asset-Importer-Library for 40+ 3D formats
 
 ### UI Libraries
+
 - [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) - Single-header ANSI C GUI library
 
 ## Web Browsers
 
 ### Alternative Browsers
+
 - [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) - Truly independent web browser
 - [qutebrowser/qutebrowser](https://github.com/qutebrowser/qutebrowser) - Keyboard-driven, vim-like browser
 - [versotile-org/verso](https://github.com/versotile-org/verso) - Mirror of verso-browser
@@ -327,44 +376,52 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [KDE/falkon](https://invent.kde.org/network/falkon) - Cross-platform Qt-based web browser
 
 ### Web Browser Forks
+
 - [Alex313031/thorium](https://github.com/Alex313031/thorium) - Chromium fork named after radioactive element
 - [Alex313031/Mercury](https://github.com/Alex313031/Mercury) - Firefox fork with optimizations
 - [zen-browser/desktop](https://github.com/zen-browser/desktop) - Welcome to a calmer internet
 - [minbrowser/min](https://github.com/minbrowser/min) - Fast, minimal browser that protects privacy
 
-
 ## Specialized Applications
 
 ### Astronomy & Science
+
 - [Stellarium/stellarium](https://github.com/Stellarium/stellarium) - Realistic sky rendering software
 
 ### Finance & Productivity
+
 - [actualbudget/actual](https://github.com/actualbudget/actual) - Local-first personal finance app
 
 ### Server Management
+
 - [YunoHost/yunohost](https://github.com/YunoHost/yunohost) - Server administration simplification OS
 - [Paymenter/Paymenter](https://github.com/Paymenter/Paymenter) - Free webshop solution for hostings
 
 ### Monitoring & Status
+
 - [upptime/upptime](https://github.com/upptime/upptime) - GitHub Actions uptime monitor & status page
 - [glanceapp/glance](https://github.com/glanceapp/glance) - Self-hosted dashboard for feeds
 
 ## Libraries & APIs
 
 ### Programming Language Libraries
+
 - [luau-lang/luau](https://github.com/luau-lang/luau) - Fast, safe, gradually typed Lua derivative
 - [pikelang/Pike](https://github.com/pikelang/Pike) - Dynamic programming language similar to Java and C
 - [HaxeFoundation/haxe](https://github.com/HaxeFoundation/haxe) - Cross-Platform Toolkit
 
 ### HTTP & Networking
+
 - [aiko-chan-ai/discord.js-selfbot-v13](https://github.com/aiko-chan-ai/discord.js-selfbot-v13) - Selfbot library for Discord
 - [aria2/aria2](https://github.com/aria2/aria2) - Multi-protocol & multi-source download utility
 - [jedisct1/piknik](https://github.com/jedisct1/piknik) - Copy/paste anything over the network
 
 ### Graphics processing
- - [CapSoftware/scap](https://github.com/CapSoftware/scap) - Cross-platform screen capturing library
+
+- [CapSoftware/scap](https://github.com/CapSoftware/scap) - Cross-platform screen capturing library
 
 ### Data Processing
+
 - [go-yaml/yaml](https://github.com/go-yaml/yaml) - YAML support for Go
 - [JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) - High-performance JSON framework for .NET
 - [xoofx/Tomlyn](https://github.com/xoofx/Tomlyn) - TOML parser for .NET
@@ -373,17 +430,20 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 ## Fun & Miscellaneous
 
 ### Entertainment & Novelty
+
 - [cat-milk/Anime-Girls-Holding-Programming-Books](https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books) - Exactly what it says
 - [ABSphreak/readme-jokes](https://github.com/ABSphreak/readme-jokes) - Jokes for GitHub READMEs
 - [Sof1dev/gayify](https://github.com/Sof1dev/gayify) - Gayify any photo with 2 clicks
 - [sammwyy/MikuMikuBeam](https://github.com/sammwyy/MikuMikuBeam) - Hatsune Miku themed network stresser
 
 ### Icons & Badges
+
 - [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) - SVG icons for popular brands
 - [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - Iconic font aggregator and patcher
 - [DenverCoder1/custom-icon-badges](https://github.com/DenverCoder1/custom-icon-badges) - Use Octicons and custom icons on shields.io
 
 ### GitHub Enhancement
+
 - [lowlighter/metrics](https://github.com/lowlighter/metrics) - GitHub stats infographics generator
 - [DenverCoder1/github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) - Display contribution streaks
 - [star-history/star-history](https://github.com/star-history/star-history) - GitHub repos star history graphs
@@ -391,22 +451,27 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 ## Infrastructure & Services
 
 ### Domain & Web Services
+
 - [open-domains/register](https://github.com/open-domains/register) - Free subdomains for personal sites
 - [publicsuffix/list](https://github.com/publicsuffix/list) - Public Suffix List
 - [kagisearch/smallweb](https://github.com/kagisearch/smallweb) - Kagi Small Web
 - [pomdtr/smallweb](https://github.com/pomdtr/smallweb) - Your Internet Folder
 
 ### Tunneling
+
 - [playit.gg](https://playit.gg/) - Game/application tunneling
 - [cloudflared](https://github.com/cloudflare/cloudflared) - Cloudflare Tunnel
 
 ### DNS Tools
+
 - [getdnsapi/stubby](https://github.com/getdnsapi/stubby) - DNS-over-TLS resolver
 - [nextdns.io](https://nextdns.io/) - Privacy-focused DNS
 
 ### Archiving & Data Preservation
+
 - [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) - Self-hosted web archiving
 - [internetarchive/brozzler](https://github.com/internetarchive/brozzler) - Distributed browser-based web crawler
 
 ### Alternative Platforms
+
 - [streamplace/streamplace](https://github.com/streamplace/streamplace) - Live video for the AT Protocol
