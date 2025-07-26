@@ -6,7 +6,7 @@ title = 'Links Of Bunch Of Things Organized Methodically for You'
 
 Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a collection of bunch of stuff I find cool.
 
-# GitHub Repository Categories
+# The Actual List
 
 ## Web Development & Frameworks
 
@@ -37,10 +37,13 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [panva/jose](https://github.com/panva/jose) - JWA, JWS, JWE, JWT, JWK, JWKS for various runtimes
 - [intoli/user-agents](https://github.com/intoli/user-agents) - JavaScript library for generating random user agents
 - [extension-js/extension.js](https://github.com/extension-js/extension.js) - Cross-browser extension framework
+- [ventojs/vento](https://github.com/ventojs/vento) - A template engine for Deno, Node and the web
+- [harttle/liquidjs](https://github.com/harttle/liquidjs) - A simple, expressive, safe and Shopify compatible template engine
 
 ### Build Tools
 
 - [vercel/turborepo](https://github.com/vercel/turborepo) - Build system optimized for JavaScript and TypeScript
+- [casey/just](https://github.com/casey/just) - Just a command runner
 - [pnpm/pnpm](https://github.com/pnpm/pnpm) - Fast, disk space efficient package manager
 
 ## Desktop Applications & Development
@@ -81,12 +84,15 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 
 - [PrismLauncher/PrismLauncher](https://github.com/PrismLauncher/PrismLauncher) - Custom Minecraft launcher
 - [PolyMC/PolyMC](https://github.com/PolyMC/PolyMC) - Custom launcher for Minecraft (Fork of MultiMC)
+- [MultiMC/Launcher](https://github.com/MultiMC/Launcher) - A custom launcher for Minecraft
+- [Voxelum/x-minecraft-launcher](https://github.com/Voxelum/x-minecraft-launcher) - An Open Source Minecraft Launcher with Modern UX
 - [cabaletta/baritone](https://github.com/cabaletta/baritone) - Google maps for block game (Minecraft pathfinding)
 - [flightlessmango/MangoHud](https://github.com/flightlessmango/MangoHud) - Vulkan and OpenGL overlay for monitoring
 
 ### Emulation
 
 - [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) - PlayStation 4 emulator
+- [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) - The Playstation 2 Emulator
 - [ruffle-rs/ruffle](https://github.com/ruffle-rs/ruffle) - Flash Player emulator written in Rust
 - [isledecomp/isle](https://github.com/isledecomp/isle) - Decompilation of LEGO Island (1997)
 - [hedge-dev/XenonRecomp](https://github.com/hedge-dev/XenonRecomp) - Tool for recompiling Xbox 360 games
@@ -171,6 +177,8 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 
 - [hufrea/byedpi](https://github.com/hufrea/byedpi) - Bypass DPI
 - [lexerotk/proxy-blocking-rules](https://github.com/lexerotk/proxy-blocking-rules) - Cloudflare WAF rules to detect VPN/Proxy/Tor
+- [FoxIO-LLC/ja4](https://github.com/FoxIO-LLC/ja4) - Suite of network fingerprinting standards
+- [refraction-networking/utls](https://github.com/refraction-networking/utls) - Fork of the Go standard TLS library providing low-level access to the ClientHello for mimicry purposes.
 
 ### Ad Blocking & Content Filtering
 
@@ -240,6 +248,9 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) - Multiplayer database at the speed of light
 - [microsoft/garnet](https://github.com/microsoft/garnet) - Remote cache-store with strong performance
 
+### Photo & Video Management
+- [immich-app/immich](https://github.com/immich-app/immich) - Self-hosted photo and video backup solution
+
 ### Object Storage & File Systems
 
 - [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) - Fast distributed storage system
@@ -298,6 +309,7 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 
 - [cake-tech/cake_wallet](https://github.com/cake-tech/cake_wallet) - Noncustodial multi-currency wallet
 - [Kunzisoft/KeePassDX](https://github.com/Kunzisoft/KeePassDX) - Lightweight password manager for Android
+- [iamrasel/lunar-launcher](https://github.com/iamrasel/lunar-launcher) - Feature rich android home with minimal look
 
 ### Cross-Platform Development
 
@@ -310,6 +322,7 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [89luca89/distrobox](https://github.com/89luca89/distrobox) - Use any Linux distribution inside terminal
 - [fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch) - Neofetch-like system information tool
 - [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) - Automated time tracker
+- [Martichou/rquickshare](https://github.com/Martichou/rquickshare) - Rust implementation of NearbyShare/QuickShare
 - [linuxhw/hw-probe](https://github.com/linuxhw/hw-probe) - Probe for hardware and check operability
 - [nix-community/vulnix](https://github.com/nix-community/vulnix) - Nix vulnerability scanner
 - [ananicy-cpp/ananicy-cpp](https://gitlab.com/ananicy-cpp/ananicy-cpp) - Process priority daemon
@@ -353,6 +366,8 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 ### Design Tools
 
 - [aseprite/aseprite](https://github.com/aseprite/aseprite) - Animated sprite editor & pixel art tool
+- [PintaProject/Pinta](https://github.com/PintaProject/Pinta) - Simple GTK Paint Program
+- [KDE/Krita](https://github.com/PintaProject/Pinta) - Krita is a cross-platform application for creating digital art
 - [mypaint/mypaint](https://github.com/mypaint/mypaint) - Simple drawing and painting program
 - [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) - Free multiplatform 3D parametric modeler
 
@@ -376,12 +391,13 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [KDE/konqueror](https://github.com/KDE/konqueror) - File manager/browser hybrid
 - [KDE/falkon](https://invent.kde.org/network/falkon) - Cross-platform Qt-based web browser
 
-### Web Browser Forks
+### Firefox & Chromium Forks
 
 - [Alex313031/thorium](https://github.com/Alex313031/thorium) - Chromium fork named after radioactive element
 - [Alex313031/Mercury](https://github.com/Alex313031/Mercury) - Firefox fork with optimizations
 - [zen-browser/desktop](https://github.com/zen-browser/desktop) - Welcome to a calmer internet
 - [minbrowser/min](https://github.com/minbrowser/min) - Fast, minimal browser that protects privacy
+- [wavebox/waveboxapp](https://github.com/wavebox/waveboxapp) - The revolutionary and feature-rich Chromium browse
 
 ## Specialized Applications
 
@@ -397,6 +413,8 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 
 - [YunoHost/yunohost](https://github.com/YunoHost/yunohost) - Server administration simplification OS
 - [runtipi/runtipi](https://github.com/runtipi/runtipi) - Runtipi is a homeserver for everyone!
+- [louislam/dockge](https://github.com/louislam/dockge) - A self-hosted docker compose.yaml stack-oriented manager (forked from louislam/dockge that has had several Pull Requests merged.)
+- [cmcooper1980/dockge](https://github.com/cmcooper1980/dockge) - A self-hosted docker compose.yaml stack-oriented manager
 - [Paymenter/Paymenter](https://github.com/Paymenter/Paymenter) - Free webshop solution for hostings
 
 ### Monitoring & Status
