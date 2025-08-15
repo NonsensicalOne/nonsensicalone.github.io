@@ -336,6 +336,7 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 - [fairyglade/ly](https://github.com/fairyglade/ly) - Console display manager
 - [tobiohlala/lightdm-tiny-greeter](https://github.com/tobiohlala/lightdm-tiny-greeter) - Minimal LightDM greeter
 - [Devolutions/IronRDP](https://github.com/Devolutions/IronRDP) - Rust implementation of the Microsoft Remote Desktop Protocol
+  - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks
 
 ### Container & Virtualization
 
@@ -428,7 +429,7 @@ Links Of Bunch Of Things Organized Methodically for You (or LOBOTOMY) is a colle
 
 - [YunoHost/yunohost](https://github.com/YunoHost/yunohost) - Server administration simplification OS
 - [runtipi/runtipi](https://github.com/runtipi/runtipi) - Runtipi is a homeserver for everyone!
-- [louislam/dockge](https://github.com/louislam/dockge) - A self-hosted docker compose.yaml stack-oriented manager (forked from louislam/dockge that has had several Pull Requests merged.)
+- [louislam/dockge](https://github.com/louislam/dockge) - A self-hosted docker compose.yaml stack-oriented manager (forked from louislam/dockge that has had several PRs merged.)
 - [cmcooper1980/dockge](https://github.com/cmcooper1980/dockge) - A self-hosted docker compose.yaml stack-oriented manager
 - [Paymenter/Paymenter](https://github.com/Paymenter/Paymenter) - Free webshop solution for hostings
 
