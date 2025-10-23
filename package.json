@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@twemoji/api": "^16.0.1",
+    "astro": "^5.14.8"
+  }
+}

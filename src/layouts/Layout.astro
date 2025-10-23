@@ -1,0 +1,41 @@
+---
+import stylesheet from "../assets/style.css";
+import pfp from "../assets/pfp.png";
+import { SITE_TITLE, USER } from "../constants";
+import twemoji from "@twemoji/api";
+import Marque from "../components/Marque.astro";
+
+const slotContent = await Astro.slots.render("default");
+const parsedContent = twemoji.parse(slotContent);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={SITE_TITLE} />
+    <link rel="stylesheet" href={stylesheet} />
+    <title>{SITE_TITLE}</title>
+  </head>
+  <body>
+    <div class="text-marquee-bg">
+      <Marque title="this site is still wip !!"/>
+      <Marque title="Made With Astro Made With Astro Made With Astro"/>
+      <Marque title="this kinda reminds me those texts from nicovideo"/>
+      <Marque title="ああああああああああああ"/>
+    </div>
+    <main>
+      <header class="profile">
+        <img src={pfp.src} alt={`${USER.username}'s profile picture`} />
+        <div class="profile-info">
+          <h1>{USER.username}</h1>
+          <h2>{USER.job}</h2>
+          <h3>{USER.pronouns}</h3>
+        </div>
+      </header>
+
+      <div class="content" set:html={parsedContent} />
+    </main>
+  </body>
+</html>

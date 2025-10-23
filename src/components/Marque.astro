@@ -1,0 +1,9 @@
+---
+const { title } = Astro.props;
+let actualTitle = (title + "\u00A0").repeat(4);
+---
+
+<div class="marquee">
+    <span>{actualTitle}</span>
+    <span>{actualTitle}</span>
+</div>
