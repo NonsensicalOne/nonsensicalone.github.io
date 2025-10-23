@@ -1,5 +1,5 @@
 ---
-import stylesheet from "../assets/style.css";
+import "../assets/style.css";
 import pfp from "../assets/pfp.png";
 import { SITE_TITLE, USER } from "../constants";
 import twemoji from "@twemoji/api";
@@ -15,7 +15,6 @@ const parsedContent = twemoji.parse(slotContent);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={SITE_TITLE} />
-    <link rel="stylesheet" href={stylesheet} />
     <title>{SITE_TITLE}</title>
   </head>
   <body>
