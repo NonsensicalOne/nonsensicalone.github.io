@@ -1,0 +1,20 @@
+---
+const { social, link } = Astro.props;
+
+const allSocialIcons = import.meta.glob('../assets/*.svg', { eager: true });
+
+const iconPath = `../assets/${social}.svg`;
+const iconModule = allSocialIcons[iconPath] as any;
+
+if (!iconModule) {
+  console.error(`social icon not found for: ${social}`);
+}
+
+const iconSrc = iconModule?.default?.src;
+---
+
+{iconSrc && (
+  <a href={link} aria-label={`Link to ${social}`}>
+    <img src={iconSrc} width="48" height="48" class="icon" alt={`${social} icon`} />
+  </a>
+)}

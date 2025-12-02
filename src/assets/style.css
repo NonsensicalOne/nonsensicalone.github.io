@@ -45,10 +45,6 @@ a:focus-visible {
   outline-offset: 3px;
 }
 
-main {
-  max-width: 600px;
-}
-
 .profile {
   background-color: #303030;
 
@@ -58,10 +54,17 @@ main {
   gap: 1.5rem;
 }
 
-.profile img {
-  width: 140px;
-  height: 140px;
+.pfp {
+  width: 180px;
+  height: 180px;
   flex-shrink: 0;
+}
+
+footer {
+  max-width: 768px;
+  width: 100%;
+  background-color: #545454;
+  text-align: center;
 }
 
 .profile-info {
@@ -164,4 +167,8 @@ img.emoji {
   to {
     transform: translateX(-50%);
   }
+}
+
+.icon {
+  padding-left: 8px;
 }

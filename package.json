@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "@twemoji/api": "^16.0.1",
-    "astro": "^5.14.8"
+    "astro": "^5.16.3"
   }
 }

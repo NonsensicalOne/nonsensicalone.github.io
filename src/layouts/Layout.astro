@@ -1,12 +1,17 @@
 ---
 import "../assets/style.css";
 import pfp from "../assets/pfp.png";
+const { title, frontmatter } = Astro.props;
 import { SITE_TITLE, USER } from "../constants";
 import twemoji from "@twemoji/api";
 import Marque from "../components/Marque.astro";
+import SocialIcon from "../components/SocialIcon.astro";
 
 const slotContent = await Astro.slots.render("default");
 const parsedContent = twemoji.parse(slotContent);
+
+const pageTitle = title || (frontmatter && frontmatter.title);
+
 ---
 
 <!doctype html>
@@ -15,26 +20,32 @@ const parsedContent = twemoji.parse(slotContent);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={SITE_TITLE} />
-    <title>{SITE_TITLE}</title>
+    <title>{ pageTitle } - {SITE_TITLE}</title>
   </head>
   <body>
     <div class="text-marquee-bg">
       <Marque title="this site is still wip !!"/>
       <Marque title="Made With Astro Made With Astro Made With Astro"/>
       <Marque title="this kinda reminds me those texts from nicovideo"/>
-      <Marque title="ああああああああああああ"/>
+      <Marque title="ああああああああああああああ"/>
     </div>
     <main>
       <header class="profile">
-        <img src={pfp.src} alt={`${USER.username}'s profile picture`} />
+        <img src={pfp.src} alt={`${USER.username}'s profile picture`} class="pfp"/>
         <div class="profile-info">
           <h1>{USER.username}</h1>
           <h2>{USER.job}</h2>
           <h3>{USER.pronouns}</h3>
+          <p>
+            <SocialIcon social="discord" link="https://discord.com/users/917403205250457641"/>
+            <SocialIcon social="github" link="https://github.com/NonsensicalOne"/>
+            <SocialIcon social="youtube" link="https://youtube.com/@hawli"/>
+          </p>
         </div>
       </header>
 
       <div class="content" set:html={parsedContent} />
+      <footer>{new Date().getFullYear()} Nonsensical</footer>
     </main>
   </body>
 </html>
