@@ -9,7 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@twemoji/api": "^16.0.1",
-    "astro": "^5.16.3"
+    "@twemoji/api": "^17.0.2",
+    "astro": "^5.16.6",
+    "sharp": "^0.34.5"
   }
 }

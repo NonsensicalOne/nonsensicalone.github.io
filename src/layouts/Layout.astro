@@ -1,6 +1,7 @@
 ---
 import "../assets/style.css";
 import pfp from "../assets/pfp.png";
+import { Image } from 'astro:assets';
 const { title, frontmatter } = Astro.props;
 import { SITE_TITLE, USER } from "../constants";
 import twemoji from "@twemoji/api";
@@ -24,14 +25,14 @@ const pageTitle = title || (frontmatter && frontmatter.title);
   </head>
   <body>
     <div class="text-marquee-bg">
-      <Marque title="this site is still wip !!"/>
+      <Marque title="welcome to my site !!"/>
       <Marque title="Made With Astro Made With Astro Made With Astro"/>
       <Marque title="this kinda reminds me those texts from nicovideo"/>
-      <Marque title="ああああああああああああああ"/>
+      <Marque title="🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟"/>
     </div>
     <main>
       <header class="profile">
-        <img src={pfp.src} alt={`${USER.username}'s profile picture`} class="pfp"/>
+        <Image src={pfp} alt={`${USER.username}'s profile picture`} class="pfp" />
         <div class="profile-info">
           <h1>{USER.username}</h1>
           <h2>{USER.job}</h2>
@@ -39,13 +40,12 @@ const pageTitle = title || (frontmatter && frontmatter.title);
           <p>
             <SocialIcon social="discord" link="https://discord.com/users/917403205250457641"/>
             <SocialIcon social="github" link="https://github.com/NonsensicalOne"/>
-            <SocialIcon social="youtube" link="https://youtube.com/@hawli"/>
           </p>
         </div>
       </header>
 
       <div class="content" set:html={parsedContent} />
-      <footer>{new Date().getFullYear()} Nonsensical</footer>
+      <footer>{new Date().getFullYear()} Nonsensical - Rewrote the site counter: 3</footer>
     </main>
   </body>
 </html>
